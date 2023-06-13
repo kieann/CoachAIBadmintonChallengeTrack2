@@ -8,7 +8,8 @@ This repository is for the purpose of predicting the landing coordinates and sho
 For each model run the
 ```
 ./script.sh
-```, or simply run the 
+``` 
+or simply run the 
 ```
 source ./train.sh
 ```
@@ -17,7 +18,7 @@ place the download weights in the ./model folder for each corresponding model. N
 #### How to RUN 
 After obtaining the trained model run 
 ```
-predict.sh. 
+predict.sh 
 ```
 Alternatively, run generator.py in each folder to get the individual csv, then run main.py.
 
